@@ -1,8 +1,8 @@
 # Hi, I'm Abdulaziz Alghoraibi 👋
 
-**Cloud-Native AI Engineer | GenAI Agents | Computer Vision**
+**Applied AI Engineer | LLM Applications | AI Automation | Backend AI Systems**
 
-I’m a software engineer focused on turning advanced AI research into practical, production-ready systems. My work spans **Generative AI**, **Computer Vision**, **automation**, and **cloud-native engineering**, with a strong interest in building privacy-aware platforms, intelligent agents, and scalable AI solutions for both cloud and edge environments.
+I’m an AI engineer focused on building practical AI systems across **LLM applications**, **AI automation**, **document intelligence**, and **computer vision**. My work includes turning research ideas into usable AI workflows, backend services, and cloud-supported systems using modern ML, retrieval, and orchestration tools.
 
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alghoraibi.abdulaziz@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdulaziz-alghoraibi)
@@ -12,70 +12,75 @@ I’m a software engineer focused on turning advanced AI research into practical
 
 ## About Me
 
-- I currently work as an **AI Analyst**, building enterprise analytics platforms and AI-powered workflow automation.
-- I enjoy translating **R&D ideas** into scalable, production-oriented AI systems.
-- My experience includes **Generative AI**, **RAG pipelines**, **computer vision**, and **cloud/edge deployment**.
-- I’ve also worked on **HPC environments**, including custom NVIDIA RTX training setups and resolving complex **PyTorch/CUDA** compatibility issues.
-- Previously, I led the **Programming & AI Club at Taif University**, managing a **350+ member** team, organizing **50+ events**, and helping train **280+ students** in programming and AI.
+- I currently work as an **AI Analyst**, building enterprise AI workflows, analytics systems, and automation solutions.
+- My main interests are **Applied AI**, **LLM systems**, **AI agents**, **backend AI engineering**, and **cloud-supported ML workflows**.
+- I’ve built projects across **RAG**, **structured outputs**, **AI security review**, **medical document QA**, and **computer vision**.
+- I also have experience with **HPC environments**, including custom NVIDIA RTX training setups and resolving **PyTorch/CUDA** compatibility issues.
+- I previously led the **Programming & AI Club at Taif University**, managing a **350+ member** team and organizing **50+ events**.
 
 ---
 
 ## Tech Stack
 
-### Cloud & DevOps
-`Azure AI Foundry` `Azure Functions` `Blob Storage` `Docker` `Linux` `Git` `GitHub Actions`
+### Programming
+`Python` `SQL` `Java` `C++` `JavaScript`
 
-### GenAI, Agents & RAG
-`OpenAI API` `Google Gemini API` `LangChain` `RAG` `n8n` `Pinecone` `ChromaDB` `Prompt Flow`
+### AI / LLM Systems
+`RAG` `LangChain` `LangGraph` `OpenAI API` `Anthropic API` `Ollama` `Structured Outputs` `AI Agents` `n8n`
+
+### Machine Learning
+`PyTorch` `TensorFlow` `scikit-learn`
+
+### Backend / APIs
+`FastAPI` `REST APIs` `Node.js`
+
+### Cloud / DevOps
+`Azure AI Foundry` `Azure Functions` `Docker` `Git` `Linux` `MLOps` `GitHub Actions`
+
+### Datastores / Retrieval
+`Pinecone` `ChromaDB` `Neo4j` `Vector Databases`
 
 ### Computer Vision
-`OpenCV` `YOLO` `Keypoint R-CNN` `AlphaPose` `VideoPose3D` `TSN` `ST-GCN`
+`OpenCV` `YOLO` `Keypoint R-CNN` `AlphaPose` `VideoPose3D` `TSN` `ST-GCN` `CUDA Optimization`
 
-### Languages
-`Python` `Node.js` `C++` `SQL`
+### Web
+`HTML` `CSS`
 
 ---
 
 ## Featured Projects
 
+### ⚖️ Meyar
+A local-first AI/LLM prototype for **legal contract auditing** built with **FastAPI**, **LangGraph**, **ChromaDB**, **Neo4j**, and **Ollama**.
+
+**Highlights:**
+- Designed a multi-step document analysis workflow with retrieval, generation, and critic-based review
+- Implemented structured outputs and evidence-linked findings for contract analysis
+- Added semantic caching, trace logging, and async API endpoints for backend AI iteration
+
 ### 🛡️ AI Security Code Reviewer
-An automated **DevSecOps security reviewer** built with **Python**, **GitHub Actions**, and **Generative AI**. It performs real-time pull request analysis using a **RAG-based pipeline** grounded in **OWASP security standards**.
+An automated **DevSecOps security reviewer** built with **Python**, **GitHub Actions**, and **Generative AI**. It performs pull request analysis using a **RAG-based pipeline** grounded in **OWASP security standards**.
 
 **Highlights:**
 - Reviews new and updated pull requests automatically
 - Retrieves relevant OWASP guidance using **ChromaDB**
-- Uses **Google Gemini API** to detect issues such as **SQL injection** and **XSS**
-- Suggests concrete fixes directly inside pull request comments
-- Runs fully in **GitHub Actions** with no dedicated hosting required
-
-### ⚖️ LexGuard
-An enterprise-grade, **air-gapped reasoning system** for legal and compliance workflows. It ingests contracts and policy documents, builds a **legal knowledge graph**, and produces **structured, citation-gated compliance claims** while detecting contradictions and policy gaps.
-
-**Highlights:**
-- Designed for **on-premise / air-gapped environments**
-- Extracts and structures knowledge from contracts and policy documents
-- Detects contradictions, policy gaps, and compliance mismatches
-- Emphasizes **traceability**, **explainability**, and **data sovereignty**
+- Uses the **Gemini API** to identify issues such as **SQL injection** and **XSS**
+- Suggests fixes directly inside pull request comments
+- Runs entirely in **GitHub Actions** with no dedicated hosting required
 
 ### 🏥 AI Medical Assistant
-A context-aware medical chatbot built with **RAG** to retrieve evidence-based answers from PDF documents using **LangChain**, **Pinecone**, and **OpenAI embeddings**.
-
-### 🚨 RASSED — Edge Security
-An edge-optimized security architecture designed for devices like **Jetson Nano**, using lightweight OCR for real-time license plate detection while reducing cloud data transfer by **99.9%** through metadata-based transmission.
+A context-aware medical chatbot built with **RAG** to retrieve evidence-based answers from PDF documents using **LangChain**, **Pinecone**, and LLM-based retrieval workflows.
 
 ### ⚽ RefAi — Offside Detection
-An automated officiating system that applies perspective transformation techniques to improve offside detection accuracy, achieving **96% accuracy** on limited compute resources.
-
-### 📹 Football Analysis System
-A computer vision-based football analysis system built with **OpenCV** and **YOLO**, combining player and ball tracking with perspective transformation for match analysis.
+A computer vision-based officiating system that applies perspective transformation techniques to improve offside detection accuracy, achieving **96% accuracy** on limited compute resources.
 
 ---
 
 ## Beyond Coding
 
-- Led technical communities and student initiatives in AI and programming
+- Led student initiatives in **AI**, **programming**, and technical community building
 - Delivered workshops in **AI** and **competitive programming**
-- Interested in building systems that are practical, scalable, and grounded in real use cases
+- Interested in building AI systems that are practical, structured, and useful in real-world settings
 
 ---
 
